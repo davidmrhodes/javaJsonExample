@@ -4,6 +4,7 @@ This is a project which gives an example of how to write a simple unit test of a
 example of a REST API using Spring Boot.  This is not the important part of this project and it really is not a good example.
 It always returns:
 
+```json
 [
   {
     "bookId": "1",
@@ -21,6 +22,7 @@ It always returns:
     "author": "J.R.R. Tolkien"
   }
 ]
+```
 
 The project was done to show how junit tests can be independent of spring or what ever technology was used to create
 the REST API.  These test could be used for consumer driven contract tests where the idea is that a consumer of your
